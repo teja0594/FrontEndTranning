@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'VM-Angular-Project';
-  productwelcome:any="hello Product"
-  childdata:any
-  getData(data:any)
-  {
-this.childdata=data
-  }
+
 }
