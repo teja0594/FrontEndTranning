@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { TranningComponent } from './components/tranning/tranning.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,TranningComponent
+    AppComponent,TranningComponent,HomeComponent
   ],
   imports: [
     BrowserModule
