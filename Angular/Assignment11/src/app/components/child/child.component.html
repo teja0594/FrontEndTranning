@@ -1,0 +1,30 @@
+<h2>Child Component</h2>
+<hr>
+<table>
+  <tr>
+    <td>
+      <div class="input-group mb-3">
+         <span class="input-group-text">Money From Parent: </span>&nbsp;
+          <input *ngIf="MoneyGift<0 else other" style="color: red;" type="text" class="form-control" [(ngModel)]="MoneyGift" readonly>&nbsp;
+            <span  *ngIf="vaie<0 else ot"  style="background-color: rgb(226, 122, 122);" class="input-group-text">Loss:</span>&nbsp;
+         <ng-template #other>
+     <input  style="color: green;" type="text" class="form-control" [(ngModel)]="MoneyGift" readonly>
+    </ng-template>
+    <ng-template #ot>
+          <span   style="background-color: rgb(120, 214, 120);" class="input-group-text">Profit:</span>
+        </ng-template>
+  <input type="text" class="form-control" [(ngModel)]="vaie" readonly>
+</div>
+      </td>
+  </tr>
+  <tr>
+    <td>
+     Invest in:&nbsp;
+      <button class="btn btn-success" (click)="invest('mutualFunds')">MutualFunds</button>&nbsp;&nbsp;
+      <button class="btn btn-danger" (click)="invest('stocks')">Stocks</button>
+    </td>
+  </tr>
+</table>
+
+
+<hr>
