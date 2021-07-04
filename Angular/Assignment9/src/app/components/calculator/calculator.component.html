@@ -1,0 +1,43 @@
+<h2 style="padding-left:25px;" ><b><i>Calculator Component</i></b></h2>
+<hr>
+<div class="jumbotron"  align='center'>
+  <h2>Simple Calculator</h2>
+  <hr>
+<table border="0.1px" >
+  <tr>
+    <td>
+      <div class="input-group mb-3">
+         <span class="input-group-text">Number 1:</span>
+         <input type="text" class="form-control" [(ngModel)]="number1" >
+      </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <div class="input-group mb-3">
+         <span class="input-group-text">Number 2:</span>
+         <input type="text" class="form-control" [(ngModel)]="number2" >
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Result:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <input type="text" class="form-control" [(ngModel)]="result" disabled >
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <button  class="btn btn-success"  (click)="Perform('+','ps')">Add</button>&nbsp;
+        <button  class="btn btn-danger "  (click)="Perform('-','ps')">Subtract</button>&nbsp;
+        <button  class="btn btn-warning"  (click)="Perform('x','md')">Multiply</button>&nbsp;
+        <button  class="btn btn-primary"  (click)="Perform('/','md')">Divide</button>&nbsp;
+    </td>
+  </tr>
+</table>
+<hr>
+</div>
+<br><br><br><br><br><br><br><br>
+
