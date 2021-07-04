@@ -1,0 +1,73 @@
+.btn {
+    border-radius: 30px;
+    height: max-content;
+    outline:none; 
+  }
+  #b
+  {
+      background-color: palevioletred;
+      outline:none; 
+      font-size: larger;
+  }
+  #ba
+  {
+      background-color: rgb(226, 48, 117);
+      outline:none; 
+      font-size: larger;
+  }
+  #back
+{
+    background-color: lightpink;
+    color:rgb(109, 109, 109);
+    font-size: larger;
+    width: 25%;
+    outline:none; 
+}
+#black
+{
+  background-color: black;
+  border-radius: 50px;
+  outline:none; 
+}
+#pink
+{
+  background-color: lightpink;
+  border-radius: 50px;
+  outline:none; 
+}
+#blue
+{
+  background-color: lightskyblue;
+  border-radius: 50px;
+  outline:none; 
+}
+  td {
+    padding: 3px;
+    height: max-content;
+    
+  }
+.trtd {
+    padding: 10px;
+    height: max-content;
+    
+  }
+
+  table {
+    background-color: lightpink;
+    border: 3px solid lightpink;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 20%;
+    
+  
+  }
+  .form-control {
+      height: 60px;
+    text-align: right;
+    background:lightpink;
+    color:rgb(109, 109, 109);
+    border:lightpink;
+    font-size: xx-large;
+    outline:none; 
+  }
+  

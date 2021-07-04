@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>CalculatorBox</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/cal1.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../RealTimeCalculator/css/style.css"  id="styles">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron" align="center">
+        <h2>Real Time Calculator</h2>
+        <hr>
+            <h4>Themes:
+            <button id="black" class="btn" onclick="Style('')">&nbsp;&nbsp;</button>
+            <button id="blue" class="btn" onclick="Style(2)">&nbsp;&nbsp;</button>
+            <button id="pink"  class="btn" onclick="Style(1)">&nbsp;&nbsp;</button> </h4>  
+      <hr>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="form-control" name="display" value="" id="display" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="right"><button  id="back" class="btn" value="<"onclick="Operation('back')"><</button></td>
+            </tr>
+            <tr>
+                <td><button value="c" id="b" class="btn  btn-block" onclick="Operation('')">AC</button></td>
+                <td><button value="-" id="b" class="btn  btn-block" onclick="Operation('-')">+/-</button></td>
+                <td><button value="%" id="b" class="btn  btn-block" onclick="Operation('%')">%&nbsp;</button></td>
+                <td><button value="/"  id="ba"class="btn btn-warning btn-block" onclick="Operation('/')">÷&nbsp;</button></td>
+            </tr>
+            <tr>
+                <td><button value="1" id="b" class="btn btn-block" onclick="Operation('1')">1</button></td>
+                <td><button value="2" id="b" class="btn  btn-block" onclick="Operation('2')">2</button></td>
+                <td><button value="3" id="b" class="btn  btn-block" onclick="Operation('3')">3</button></td>
+                <td> <button value="*" id="ba"class="btn btn-warning btn-block" onclick="Operation('*')"><small>x</small></button></td>
+            </tr>
+            <tr>
+                <td><button value="4" id="b" class="btn  btn-block" onclick="Operation('4')">4</button></td>
+                <td><button value="5" id="b" class="btn  btn-block" onclick="Operation('5')">5</button></td>
+                <td><button value="6" id="b" class="btn  btn-block" onclick="Operation('6')">6</button></td>
+                <td><button value="-" id="ba"class="btn btn-warning btn-block" onclick="Operation('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="7" id="b" class="btn  btn-block" onclick="Operation('7')">7</button></td>
+                <td><button value="8" id="b" class="btn  btn-block" onclick="Operation('8')">8</button></td>
+                <td><button value="9" id="b" class="btn  btn-block" onclick="Operation('9')">9</button></td>
+                <td><button value="+" id="ba"class="btn btn-warning btn-block " onclick="Operation('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button value="0" id="b" class="btn  btn-block" onclick="Operation('0')">0</button></td>
+                <td><button value="." id="b" class="btn  btn-block" onclick="Operation('.')">.</button></td>
+                <td><button value="=" id="ba"class="btn btn-warning btn-block" onclick="Operation('solve')">=</button></td>
+            </tr>
+            <tr><td class="trtd"></td></tr>
+
+        </table>
+        <hr>
+    </div>
+
+</body>
+
+</html>
