@@ -1,0 +1,13 @@
+<h2 style="padding-left:25px;" ><b><i>Product Component</i></b></h2>
+<div class='container'>
+<table  style="padding:30px" border="1px" class="table" >
+  <tr *ngIf="products.length!=0"><th>ID: </th><th>Name: </th><th>Price: </th><th>Desc: </th><th>Image: </th></tr>
+  <tr ngColor  *ngFor="let product of products">
+      <td >{{product.id|uppercase}}&nbsp;</td>
+      <td>{{product.name|titlecase}}&nbsp;</td>
+      <td>{{product.price |currency:'INR'}}{{"/-"}}&nbsp;</td>
+      <td>{{product.description}}&nbsp;</td>
+     <td><img [src]='product.image' height="65px" width="85px"></td>
+  </tr>
+</table>
+</div>
