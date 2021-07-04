@@ -1,0 +1,33 @@
+<h2 style="padding-left:25px;" ><b><i>Product Component</i></b></h2>
+<div class='container'>
+<table  style="padding:30px" border="1px" class="table" >
+  <tr>
+   <td width="75%" colspan="3"><div class="input-group mb-3">
+        <span class="input-group-text">Search</span>
+      <input type="text" class="form-control" [(ngModel)]="filter" >
+      <span class=" input-group-text material-icons">search</span>
+    </div>
+   </td>
+    <td width="25%" colspan="2">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Sort</span>
+        <select class="form-select" [(ngModel)]="funnel" >
+          <option [value]="'a-z'">A-Z</option>
+          <option [value]="'z-a'">Z-A</option>
+          <option [value]="'low'">Low-High</option>
+          <option [value]="'high'">High-Low</option>
+        </select>
+        <span class=" input-group-text material-icons">filter_alt</span>
+      </div>
+    </tr>
+  <tr *ngIf="products.length!=0"><th>ID: </th><th>Name: </th><th>Price: </th><th>Desc: </th><th>Image: </th></tr>
+  <tr ngColor  *ngFor="let product of products|search:filter|sort:funnel">
+      <td >{{product.id|uppercase}}&nbsp;</td>
+      <td>{{product.name|titlecase}}&nbsp;</td>
+      <td>{{product.price |currency:'INR'}}{{"/-"}}&nbsp;</td>
+      <td>{{product.description}}&nbsp;</td>
+     <td><img [src]='product.image' height="65px" width="85px"></td>
+  </tr>
+
+</table>
+</div>
