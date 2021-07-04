@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var module1_1 = require("./module1");
+var module2_1 = require("./module2");
+console.log(module1_1.obj);
+console.log(" ");
+console.log("------------------------------");
+var account1 = new module2_1.Bank(123, "Teja");
+console.log("Customer Id  : " + account1.customerId + "\nCustomer Name: " + account1.customerName);
+console.log("FixedDeposit " + account1.getFixedDeposit(10000, 8, 5));
+console.log("RecuringDeposit after 2 years " + account1.getRecurringDeposit(10000, 4, 2));
