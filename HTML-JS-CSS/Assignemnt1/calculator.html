@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/cal2.png"/>
+    <script src="./js/script.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="jumbotron" align="center">
+        <h2>Simple Calculator</h2>
+        <hr>
+        <table  >
+            <tr><td> <b>First Number:</b> <input type="number" class="form-control" id="one" ></td> </tr>
+            <tr><td><br><b>Second Number:</b>  <input type="number"  class="form-control"id="two"></td> </tr>
+            <tr><td><br><b>Result:</b><input type="number" class="form-control" id="result" readonly></td> </tr>
+            <tr><td><br>
+    <button onClick="Operation('+')" class="btn btn-success">Add</button>&nbsp;&nbsp;
+    <button onClick="Operation('-')" class="btn btn-warning">Subtract</button>&nbsp;&nbsp;
+    <button onClick="Operation('*')" class="btn btn-primary">Multiply</button>&nbsp;&nbsp;
+    <button onClick="Operation('/')" class="btn btn-danger">Divide</button></td></tr>
+        </table>
+        <hr>
+      </div>
+</body>
+    </html>
