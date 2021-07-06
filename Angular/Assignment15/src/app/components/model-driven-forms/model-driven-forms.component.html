@@ -1,0 +1,52 @@
+<div class="container">
+  <h2>Reactive Forms</h2><hr>
+    <form [formGroup]='User' (ngSubmit)='submitData()'>
+          <div class='form-group'>
+               <label>UserName: </label>
+               <input type='text' formControlName='userName' class='form-control'>
+          </div>
+          <div *ngIf="User.get('userName')?.valid"class='text text-success'>UserName is valid</div>
+          <div *ngIf="User.get('userName')?.invalid && User.get('userName')?.touched">
+          <div *ngIf="User.get('userName')?.errors?.required" class='text text-danger'>UserName is required</div>
+          <div *ngIf="User.get('userName')?.errors?.minlength" class='text text-danger'>UserName must be atlest 3 characters</div>
+          <div *ngIf="User.get('userName')?.errors?.pattern" class='text text-danger'>Invalid User Name</div></div>
+          <br>
+          <div class='form-group'>
+                <label>Email</label>
+                <input  type='text' formControlName='userEmail' class='form-control'>
+          </div>
+          <div *ngIf="User.get('userEmail')?.valid"class='text text-success'>Email is valid</div>
+          <div *ngIf="User.get('userEmail')?.invalid && User.get('userEmail')?.touched">
+          <div *ngIf="User.get('userEmail')?.errors?.required" class='text text-danger'>Email is required</div>
+          <div *ngIf="User.get('userEmail')?.errors?.pattern" class='text text-danger'>Invalid Email</div></div>
+          <br>
+          <div formGroupName="userAddess">
+          <div class='form-group'>
+              <label>City</label>
+              <input  type='text' formControlName='userCity' class='form-control'>
+          </div>
+          <div *ngIf="User.get('userAddess')?.get('userCity')?.valid"class='text text-success'>City is valid</div>
+          <div *ngIf="User.get('userAddess')?.get('userCity')?.invalid && User.get('userAddess')?.get('userCity')?.touched">
+          <div *ngIf="User.get('userAddess')?.get('userCity')?.errors?.required" class='text text-danger'>City is required</div>
+          <div *ngIf="User.get('userAddess')?.get('userCity')?.errors?.pattern" class='text text-danger'>Invalid City</div></div>
+          <br>
+          <div class='form-group'>
+              <label >Postal Code</label>
+              <input  type='text' formControlName='userPostalCode' class='form-control'>
+          </div>
+          <div *ngIf="User.get('userAddess')?.get('userPostalCode')?.valid"class='text text-success'>Postal is valid</div>
+          <div *ngIf="User.get('userAddess')?.get('userPostalCode')?.invalid && User.get('userAddess')?.get('userPostalCode')?.touched">
+          <div *ngIf="User.get('userAddess')?.get('userPostalCode')?.errors?.required" class='text text-danger'>PostalCode is required</div>
+          <div *ngIf="User.get('userAddess')?.get('userPostalCode')?.errors?.minlength" class='text text-danger'>Postal must be atlest 6 digits</div>
+          <div *ngIf="User.get('userAddess')?.get('userPostalCode')?.errors?.pattern" class='text text-danger'>Invalid PostalCode</div></div>
+      </div>
+      <br>
+        <button [disabled]='!User.valid' type='submit' class='btn btn-success'>Submit</button>
+    </form>
+</div>
+<br>
+<hr>
+{{data|json}}
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br>

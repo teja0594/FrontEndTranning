@@ -1,0 +1,56 @@
+<div class="container">
+  <h2>Template Driven Forms</h2><hr>
+  <form #userForm ='ngForm' (ngSubmit)='submitData(userForm.value)'>
+    <div class='form-group'>
+      <label>Name</label>
+      <input type='text' #nameRef='ngModel' class='form-control' name='uname' ngModel required minlength="3" pattern="/^[A-Z][a-z]+[A-Z]*[a-z]*+$/">
+  </div>
+  <div *ngIf='!nameRef.errors' class='text text-success'>Valid Username</div>
+  <div *ngIf='nameRef.errors && (nameRef.touched || nameRef.dirty)' class='text text-danger'>
+      <div [hidden]='!nameRef.errors.required'>Please enter name</div>
+      <div [hidden]='!nameRef.errors.minlength'>Please enter atlest 3 characters</div>
+      <div [hidden]='!nameRef.errors.pattern'>Invalid Username</div>
+  </div>
+  <br>
+      <div class='form-group'>
+          <label>Email</label><input type='text' #emailRef='ngModel' class='form-control' name='email'  ngModel required   pattern="^[a-zA-Z0-9._]{5,15}@[a-z]{5,15}.[a-z]{2,15}$" >
+      </div>
+      <div *ngIf='!emailRef.errors' class='text text-success'>Valid Email</div>
+      <div *ngIf='emailRef.errors && (emailRef.touched || emailRef.dirty)' class='text text-danger'>
+        <div [hidden]='!emailRef.errors.required'>Please enter email</div>
+        <div [hidden]='!emailRef.errors.pattern'>Invalid Email</div>
+    </div>
+    <br>
+      <div ngModelGroup='Address'>
+        <div class='form-group'>
+          <label>City</label><input type='text' #cityRef='ngModel' class='form-control' name='city'  ngModel required  pattern="^[A-Z][a-z]+$">
+        </div>
+        <div *ngIf='!cityRef.errors' class='text text-success'>Valid City</div>
+        <div *ngIf='cityRef.errors && (cityRef.touched || cityRef.dirty)' class='text text-danger'>
+          <div [hidden]='!cityRef.errors.required'>Please enter city</div>
+          <div [hidden]='!cityRef.errors.pattern'>Invalid city</div>
+      </div>
+       <br>
+        <div class='form-group'>
+          <label>PostalCode</label><input type='text' #postalRef='ngModel' class='form-control' name='PostalCode'  ngModel required minlength="6"maxlength="6" pattern="/^[0-9]{6,6}+$/">
+        </div>
+        <div *ngIf='!postalRef.errors' class='text text-success'>Valid PostalCode</div>
+        <div *ngIf='postalRef.errors && (postalRef.touched || postalRef.dirty)' class='text text-danger'>
+          <div [hidden]='!postalRef.errors.required'>Please enter postal code</div>
+          <div [hidden]='!postalRef.errors.pattern'>Invalid postalcode</div>
+          <div [hidden]='!postalRef.errors.minlength'>Please enter atlest 6 digits</div>
+          <div [hidden]='!postalRef.errors.maxlength'>Please enter atmost 6 digits</div>
+
+      </div>
+
+      </div>
+      <br>
+      <button [disabled]='!userForm.form.valid' type='submit' class='btn btn-success'>Submit</button>
+  </form>
+</div>
+<br>
+<hr>
+{{data|json}}
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br>
