@@ -1,0 +1,8 @@
+[
+  {"courseid":"jcore","name":"Core Java","price":5,"description":"Core Java is the part of Java programming language that is used for creating or developing a general-purpose application","image":"../assets/images/j2.png"},
+  {"courseid":"japps","name":"Java Applets","price":3,"description":"Applet is a special type of program that is embedded in the webpage to generate the dynamic content. It runs inside the browser and works at client side.","image":"../assets/images/j3.png"},
+  {"courseid":"j2ee","name":"Advanced Java","price":4,"description":"Advanced Java is also a part of Java programming language that generally deals with online application like the website and mobile application","image":"../assets/images/j1.png"},
+  {"courseid":"jorm","name":"Hibernate","price":4,"description":"Hibernate ORM is an object–relational mapping tool for the Java programming language","image":"../assets/images/j5.png"},
+  {"courseid":"jspring","name":"Spring","price":4,"description":"The Spring Framework is an application framework and inversion of control container for the Java platform.","image":"../assets/images/j4.png"},
+  {"courseid":"jsf","name":"JServerFaces","price":2,"description":" JavaServer Faces is a server side component based user interface framework. It is used to develop web applications.","image":"../assets/images/j6.png"},
+  {"courseid":"jjson","name":"Java Jackson","price":1,"description":"Java Jackson is a very popular and efficient java based library to serialize or map java objects to JSON and vice versa","image":"../assets/images/j7.png"}]

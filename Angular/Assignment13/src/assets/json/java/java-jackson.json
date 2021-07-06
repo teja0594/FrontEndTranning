@@ -1,0 +1,9 @@
+[
+  {"id":1,"name":"JSON ","desc":"JSON tutorial for beginners and professionals provides deep knowledge of JSON technology.","link":"https://www.javatpoint.com/json-tutorial"},
+  {"id":2,"name":"JSON vs XML","desc":"JSON stands for JavaScript object notation. XML stands for an extensible markup language. ","link":"https://www.javatpoint.com/json-vs-xml"},
+  {"id":3,"name":"JSON Object","desc":"JSON object holds key/value pair. Each key is represented as a string in JSON and value can be of any type. The keys and values are separated by colon. Each key/value pair is separated by comma.","link":"https://www.javatpoint.com/json-object"},
+  {"id":4,"name":"JSON Array","desc":"JSON array represents ordered list of values. JSON array can store multiple values. It can store string, number, boolean or object in JSON array.","link":"https://www.javatpoint.com/json-array"},
+  {"id":5,"name":"JSON Compare","desc":"The JSON compare is a superset of JSONLint validator, a tool that is used to compare different sorts of JSON data. JSON compare serves similar features like JSONLint in an advanced manner. ","link":"https://www.javatpoint.com/json-compare"},
+  {"id":6,"name":"JSON Beautifier","desc":"JSON beautifier is a tool that helps developers to control the format of data in JSON files.The JSON beautifier recognizes the bad patterns of the raw JSON data and constructs them again to make them ready to be easily readable.","link":"https://www.javatpoint.com/json-beautifier"},
+  {"id":7,"name":"JSON Server","desc":" JSON Server is a Node Module that you can use to create demo REST JSON services within a short span of minutes.","link":"https://www.javatpoint.com/json-server"}
+]

@@ -1,0 +1,14 @@
+[
+  {"id":1,"name":"Basics","desc":"Applet is a special type of program that is embedded in the webpage to generate the dynamic content. It runs inside the browser and works at client side.","link":"https://www.javatpoint.com/java-applet"},
+  {"id":2,"name":"Graphics","desc":"java.awt.Graphics class provides many methods for graphics programming.","link":"https://www.javatpoint.com/Graphics-in-applet"},
+  {"id":3,"name":"Image","desc":"Applet is mostly used in games and animation. For this purpose image is required to be displayed. The java.awt.Graphics class provide a method drawImage() to display the image.","link":"https://www.javatpoint.com/Displaying-image-in-applet"},
+  {"id":4,"name":"Animation","desc":"Applet is mostly used in games and animation.","link":"https://www.javatpoint.com/Animation-in-applet"},
+  {"id":5,"name":"EventHandling ","desc":"As we perform event handling in AWT or Swing, we can perform it in applet also.","link":"https://www.javatpoint.com/Event-Handling-in-applet"},
+  {"id":6,"name":"Painting ","desc":"We can perform painting operation in applet by the mouseDragged() method of MouseMotionListener.","link":"https://www.javatpoint.com/Painting-in-applet"},
+  {"id":7,"name":"Digital clock","desc":"Digital clock can be created by using the Calendar and SimpleDateFormat class. ","link":"https://www.javatpoint.com/Digital-clock-in-applet"},
+  {"id":8,"name":"Analog clock","desc":"Analog clock can be created by using the Math class.","link":"https://www.javatpoint.com/Analog-clock-in-applet"},
+  {"id":9,"name":"Applet Communication","desc":"java.applet.AppletContext class provides the facility of communication between applets. We provide the name of applet through the HTML file. It provides getApplet() method that returns the object of Applet.","link":"https://www.javatpoint.com/Applet-Communication"},
+  {"id":10,"name":"Parameter ","desc":"We can get any information from the HTML file as a parameter. For this purpose, Applet class provides a method named getParameter().","link":"https://www.javatpoint.com/Parameter-in-applet"}
+
+]
+

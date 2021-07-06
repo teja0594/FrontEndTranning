@@ -1,0 +1,8 @@
+[
+  {"id":1,"name":"Introduction","desc":"PWAs are web apps developed using a number of specific technologies and standard patterns to allow them to take advantage of both web and native app features.","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Introduction"},
+  {"id":2,"name":"PWAs installable","desc":"The installed web app can then be launched by users just as if it were any native app.","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"},
+  {"id":3,"name":"PWAs re-engageable","desc":"The Push API and Notifications API are two separate APIs, but they work well together when you want to provide engaging functionality in your app.","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push"},
+  {"id":4,"name":"Progressive loading","desc":"This could be achieved by progressive loading — also known as Lazy loading. This is all about deferring loading of as many resources as possible (HTML, CSS, JavaScript), and only loading those immediately that are really needed for the very first experience.","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading"},
+  {"id":5,"name":"PWA Structure","desc":"There are two main, different approaches to rendering a website — on the server or on the client. They both have their advantages and disadvantages, and you can mix the two approaches to some degree.","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure"}
+]
+

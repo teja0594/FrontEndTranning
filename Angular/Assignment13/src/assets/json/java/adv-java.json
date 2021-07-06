@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"JDBC (Java Database Connectivity)","desc":"JDBC stands for Java Database Connectivity. JDBC is a Java API to connect and execute the query with the database. It is a part of JavaSE (Java Standard Edition).","link":"https://www.javatpoint.com/java-jdbc"},
+  {"id":2,"name":"Servlet","desc":"Servlet technology is used to create a web application (resides at server side and generates a dynamic web page).","link":"https://www.javatpoint.com/servlet-tutorial"},
+  {"id":3,"name":"JSP","desc":"A JSP page consists of HTML tags and JSP tags. The JSP pages are easier to maintain than Servlet because we can separate designing and development.","link":"https://www.javatpoint.com/jsp-tutorial"}
+]
+

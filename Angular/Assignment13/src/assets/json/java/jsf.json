@@ -1,0 +1,11 @@
+[
+  {"id":1,"name":"JavaServer Faces","desc":"It is a server side component based user interface framework. It is used to develop web applications. It provides a well-defined programming model and consists of rich API and tag libraries.","link":"https://www.javatpoint.com/what-is-jsf"},
+  {"id":2,"name":"JSF UI Components","desc":"JavaServer Faces HTML tag library represents HTML form components and other basic HTML elements, which are used to display or accept data from the user. A JSF form send this data to the server after submitting the form.","link":"https://www.javatpoint.com/jsf-ui-components"},
+  {"id":3,"name":"JSF Validation","desc":"JavaServer Faces technology provides a set of standard classes and associated tags that you can use to validate elements data.","link":"https://www.javatpoint.com/jsf-validation"},
+  {"id":4,"name":"JSF Bean Validation","desc":"JSF provides validation constraints for bean model in the form of annotations. You can place that annotations on a field, method, or class of a JavaBeans component, such as a managed bean.","link":"https://www.javatpoint.com/jsf-bean-validation"},
+  {"id":5,"name":"JSF Converters","desc":"The JavaServer Faces provides a set of Converters. You can use that to convert component data. The purpose of conversion is to take the String-based data from the Servlet API and convert it to strongly typed Java objects.","link":"https://www.javatpoint.com/jsf-standard-converters"},
+  {"id":6,"name":"JSF Referencing Bean","desc":"JSF Referencing Managed Bean Method","link":"https://www.javatpoint.com/jsf-referencing-managed-bean-method"},
+  {"id":7,"name":"Facelets","desc":"It is a light weight page declaration language which is used to build JavaServer Faces views using HTML style.","link":"https://www.javatpoint.com/facelets"},
+  {"id":8,"name":"JSF JDBC","desc":"You can integrate JSF application to the jdbc. JDBC allows you to store data into the database table.","link":"https://www.javatpoint.com/jsf-jdbc-connectivity"}
+]
+

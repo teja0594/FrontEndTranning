@@ -1,0 +1,8 @@
+[
+  {"id":1,"name":"Angular","desc":"Angular is one of the open-source, front-end, JavaScript-based frameworks widely used in creating single page applications on the client side.","link":"https://angular.io/"},
+  {"id":2,"name":"ReactJS","desc":"ReactJS is more of a library than a framework which is used for creating User Interface (UI) applications.","link":"https://reactjs.org/"},
+  {"id":3,"name":"EmberJS","desc":"EmberJS is a highly opinionated, open-source framework which promotes greater flexibility. It follows a widget-based approach known by the name Ember components.","link":"https://emberjs.com/"},
+  {"id":4,"name":"Backbone.js","desc":"Backbone.js is a JavaScript library which was first released in the year 2010. It is lightweight and flexible, especially for structured codes. ","link":"https://backbonejs.org/"},
+  {"id":5,"name":"Meteor.js","desc":"Meteor.js  is a free, open-source, full-stack, JavaScript framework which is created using Node.js. It is fast in building reactive applications on Node.js platform.","link":"https://www.meteor.com/"}
+]
+

@@ -1,0 +1,54 @@
+
+<div class='container' align="center">
+  <h2 ><b><i>Java Technologies</i></b></h2>
+  <hr>
+  <div class="input-group mb-3">
+    <span class="input-group-text">Search</span>
+  <input type="text" class="form-control" [(ngModel)]="filter" >
+  <span class=" input-group-text material-icons">search</span>
+</div>
+ <mat-grid-list cols="4" rowHeight="100px">
+  <div ngColor3 *ngFor="let java of jcourses |search:filter">
+    <a [routerLink]="[java.courseid]" routerLinkActive="active"  >
+        <mat-grid-tile ngColor3 ><img [src]='java.image' height="85px" width="95px"></mat-grid-tile>
+    </a>
+  </div>
+</mat-grid-list><br>
+<hr>
+</div>
+
+<router-outlet></router-outlet>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br>
+<br><br><br><br><br>
+<!-- <table  style="padding:30px" border="1px" class="table" >
+  <tr>
+   <td width="75%" colspan="3"><div class="input-group mb-3">
+        <span class="input-group-text">Search</span>
+      <input type="text" class="form-control" [(ngModel)]="filter" >
+      <span class=" input-group-text material-icons">search</span>
+    </div>
+   </td>
+    <td width="25%" colspan="2">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Sort</span>
+        <select class="form-select" [(ngModel)]="funnel" >
+          <option [value]="'a-z'">byName (A-Z)</option>
+          <option [value]="'z-a'">byName (Z-A)</option>
+          <option [value]="'low'">Low Rating</option>
+          <option [value]="'high'">High Rating</option>
+        </select>
+        <span class=" input-group-text material-icons">filter_alt</span>
+      </div>
+    </tr>
+  <tr *ngIf="jcourses.length!=0"><th>ID: </th><th>Name: </th><th>Description: </th><th>Rating: </th><th>Image: </th></tr>
+  <tr ngColor2  *ngFor="let java of jcourses|search:filter|sort:funnel">
+      <td >{{java.courseid|uppercase}}&nbsp;</td>
+      <td>{{java.name|titlecase}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>{{java.description}}&nbsp;</td>
+      <td >{{stars[java.price]}}</td>
+     <td><img [src]='java.image' height="65px" width="85px"></td>
+  </tr>
+
+</table> -->
+

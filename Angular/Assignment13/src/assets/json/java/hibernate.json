@@ -1,0 +1,12 @@
+[
+  {"id":1,"name":"Architecture","desc":"The Hibernate architecture includes many objects such as persistent object, session factory, transaction factory, connection factory, session, transaction etc.","link":"https://www.javatpoint.com/hibernate-architecture"},
+  {"id":2,"name":"Logging by Log4j","desc":"Logging enables the programmer to write the log details into a file permanently. Log4j and Logback frameworks can be used in hibernate framework to support logging.","link":"https://www.javatpoint.com/hibernate-logging-by-log4j-using-xml-file"},
+  {"id":3,"name":"Inheritance Mapping","desc":"We can map the inheritance hierarchy classes with the table of the database.","link":"https://www.javatpoint.com/hibernate-inheritance-mapping-tutorial"},
+  {"id":4,"name":"Collection Mapping","desc":"We can map collection elements of Persistent class in Hibernate.","link":"https://www.javatpoint.com/collection-mapping"},
+  {"id":5,"name":"Transaction Management","desc":"A transaction simply represents a unit of work. In such case, if one step fails, the whole transaction fails (which is termed as atomicity). A transaction can be described by ACID properties (Atomicity, Consistency, Isolation and Durability).","link":"https://www.javatpoint.com/hibernate-transaction-management-example"},
+  {"id":6,"name":"Hibernate Query Language (HQL)","desc":"Hibernate Query Language (HQL) is same as SQL (Structured Query Language) but it doesn't depends on the table of the database. Instead of table name, we use class name in HQL. So it is database independent query language.","link":"https://www.javatpoint.com/hql"},
+  {"id":7,"name":"HCQL (Hibernate Criteria Query Language)","desc":"The Hibernate Criteria Query Language (HCQL) is used to fetch the records based on the specific criteria.","link":"https://www.javatpoint.com/hcql"},
+  {"id":8,"name":"Caching ","desc":"Hibernate caching improves the performance of the application by pooling the object in the cache. It is useful when we have to fetch the same data multiple times.","link":"https://www.javatpoint.com/Caching-in-hibernate"},
+  {"id":9,"name":"Hibernate and Spring","desc":"We can simply integrate hibernate application with spring application.","link":"https://www.javatpoint.com/hibernate-and-spring-integration"}
+]
+

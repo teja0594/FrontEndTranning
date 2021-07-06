@@ -1,0 +1,13 @@
+[
+  {"id":1,"name":"OOPS","desc":" (Data Abstraction, Encapsulation, Inheritance, Polymorphism)","link":"https://www.javatpoint.com/java-oops-concepts"},
+  {"id":2,"name":"Java constructs","desc":"Loops and Data types","link":"https://www.javatpoint.com/java-for-loop"},
+  {"id":3,"name":"String handling","desc":"String is basically an object that represents sequence of char values. An array of characters works same as Java string","link":"https://www.javatpoint.com/java-string"},
+  {"id":4,"name":"Collection framework","desc":"The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.","link":"https://www.javatpoint.com/collections-in-java"},
+  {"id":5,"name":"Multithreading","desc":"Multithreading in Java is a process of executing multiple threads simultaneously.","link":"https://www.javatpoint.com/multithreading-in-java"},
+  {"id":6,"name":"Exception handling","desc":"The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that normal flow of the application can be maintained.","link":"https://www.javatpoint.com/exception-handling-in-java"},
+  {"id":7,"name":"Generics","desc":"The Java Generics programming is introduced in J2SE 5 to deal with type-safe objects. It makes the code stable by detecting the bugs at compile time.","link":"https://www.javatpoint.com/generics-in-java"},
+  {"id":8,"name":"Synchronisation","desc":"Synchronization in java is the capability to control the access of multiple threads to any shared resource.","link":"https://www.javatpoint.com/synchronization-in-java"},
+  {"id":9,"name":"Serialisation","desc":"Serialization in Java is a mechanism of writing the state of an object into a byte-stream. It is mainly used in Hibernate, RMI, JPA, EJB and JMS technologies.","link":"https://www.javatpoint.com/serialization-in-java"},
+  {"id":10,"name":"De-serialisation","desc":"Deserialization is the process of reconstructing the object from the serialized state. It is the reverse operation of serialization","link":"https://www.javatpoint.com/serialization-in-java"}
+]
+

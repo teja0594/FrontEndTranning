@@ -1,0 +1,36 @@
+<h2 ><b></b></h2>
+
+<div class='container'>
+  <h2 class="cdk" ><b><i>{{cjava.name}}</i></b></h2>
+  <h3> <b>Desc: </b> {{"  "+cjava.description}}</h3>
+  <h3><b>Rating: {{stars[cjava.price]}}</b></h3>
+  <h4  ><b><i>Concepts: </i></b></h4>
+<table  border="1px" class="table" >
+  <tr>
+   <td width="75%" colspan="3"><div class="input-group mb-3">
+        <span class="input-group-text">Search</span>
+      <input type="text" class="form-control" [(ngModel)]="filter" >
+      <span class=" input-group-text material-icons">search</span>
+    </div>
+   </td>
+    <td width="20%" colspan="1">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Sort</span>
+        <select class="form-select" [(ngModel)]="funnel" >
+          <option [value]="'a-z'">A-Z</option>
+          <option [value]="'z-a'">Z-A</option>
+          <option [value]="'low'">byID</option>
+        </select>
+        <span class=" input-group-text material-icons">filter_alt</span>
+      </div>
+    </tr>
+  <tr *ngIf="corejava.length!=0"><th>ID: </th><th>Name: </th><th>Desc: </th><th>Website:</th></tr>
+  <tr ngColor1  *ngFor="let javacore of corejava|search:filter|sort:funnel">
+      <td >{{javacore.id}}&nbsp;</td>
+      <td>{{javacore.name|titlecase}}&nbsp;</td>
+      <td>{{javacore.desc}}&nbsp;</td>
+      <td><a style="text-decoration: none;" [href]="javacore.link" target="_blank"><b>Link</b>&nbsp;<img src="assets/images/link.png" height="15px" width="15px"> </a>&nbsp;</td>
+  </tr>
+
+</table>
+</div>

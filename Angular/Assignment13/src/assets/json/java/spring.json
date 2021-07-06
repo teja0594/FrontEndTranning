@@ -1,0 +1,15 @@
+[
+  {"id":1,"name":"Spring Modules","desc":"The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects, Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc.","link":"https://www.javatpoint.com/spring-modules"},
+  {"id":2,"name":"IoC Container","desc":"The IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly.","link":"https://www.javatpoint.com/ioc-container"},
+  {"id":3,"name":"Dependency Injection","desc":"Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. ","link":"https://www.javatpoint.com/dependency-injection-in-spring"},
+  {"id":4,"name":"Constructor Injection","desc":"We can inject the dependency by constructor. The <constructor-arg> subelement of <bean> is used for constructor injection.","link":"https://www.javatpoint.com/spring-tutorial-dependency-injection-by-constructor"},
+  {"id":5,"name":"setter Injection","desc":"We can inject the dependency by setter method also. The <property> subelement of <bean> is used for setter injection.","link":"https://www.javatpoint.com/spring-tutorial-dependency-injection-by-setter-method"},
+  {"id":6,"name":"Autowiring ","desc":"Autowiring feature of spring framework enables you to inject the object dependency implicitly. It internally uses setter or constructor injection.","link":"https://www.javatpoint.com/autowiring-in-spring"},
+  {"id":7,"name":"Spring AOP ","desc":"Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity.","link":"https://www.javatpoint.com/spring-aop-tutorial"},
+  {"id":8,"name":"Spring JdbcTemplate","desc":"Spring JdbcTemplate is a powerful mechanism to connect to the database and execute SQL queries. It internally uses JDBC api, but eliminates a lot of problems of JDBC API.","link":"https://www.javatpoint.com/spring-JdbcTemplate-tutorial"},
+  {"id":9,"name":"Hibernate and Spring ","desc":"We can simply integrate hibernate application with spring application.","link":"https://www.javatpoint.com/hibernate-and-spring-integration"},
+  {"id":10,"name":"Spring MVC","desc":"A Spring MVC is a Java framework which is used to build web applications. It follows the Model-View-Controller design pattern. It implements all the basic features of a core spring framework like Inversion of Control, Dependency Injection.","link":"https://www.javatpoint.com/spring-mvc-tutorial"},
+  {"id":11,"name":"Spring Security ","desc":"Spring Security Tutorial provides basic and advanced concepts of Spring Security. Our Spring Security Tutorial is designed for beginners and professionals both.","link":"https://www.javatpoint.com/spring-security-tutorial"}
+
+]
+

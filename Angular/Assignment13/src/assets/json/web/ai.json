@@ -1,0 +1,11 @@
+[
+  {"id":1,"name":"Machine learning (ML)","desc":"Machine learning enables machines to “learn” a task from experience without programming them specifically about that task.","link":""},
+  {"id":2,"name":"Deep Learning","desc":"Deep Learning is a subset of Machine Learning. It enables processing of data and creating predictions using neural networks. These neural networks are connected in a web/like structure like the networks in the human brain.","link":""},
+  {"id":3,"name":"Reinforcement learning","desc":"Reinforcement learning is a part of Artificial Intelligence in which the machine learns something in a way that is similar to how humans learn.","link":""},
+  {"id":4,"name":"Robotics","desc":"Robotics is a field that deals with creating humanoid machines thatcan behave like humans and perform some actions like humanbeings.","link":""},
+  {"id":5,"name":"Natural Language Processing (NLP)","desc":"NLP is currently extremely popular for customer support applications, particularly the chatbot. These chatbots use ML and NLP to interact with the users in textual form and solve their queries. ","link":""},
+  {"id":6,"name":"Recommender Systems","desc":"A Recommender System can be based on Content-based Recommendation or even Collaborative Filtering. Content-Based Recommendation is done by analyzing the content of all the items.","link":""},
+  {"id":7,"name":"Computer Vision","desc":"Computer Vision uses Artificial Intelligence to extract information from images. ","link":""},
+  {"id":8,"name":"Internet of Things","desc":"This is where ArtificialIntelligence comes into the picture. Internet of Things is used to collect and handle the huge amount of data that is required by the Artificial Intelligence algorithms.","link":""}
+]
+
