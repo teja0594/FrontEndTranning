@@ -1,0 +1,15 @@
+
+<div class='container' align="center">
+  <h2  ><b><i>Sibling2 Component</i></b></h2><hr>
+<table   border="1px" class="table" >
+
+  <tr *ngIf="customers.length!=0"><th>ID: </th><th>Name: </th><th>Phome: </th><th>Email: </th></tr>
+  <tr ngColor  *ngFor="let customer of customers">
+      <td >{{customer.id}}&nbsp;</td>
+      <td>{{customer.name}}&nbsp;</td>
+      <td>{{customer.phone }}&nbsp;</td>
+      <td>{{customer.email}}&nbsp;</td>
+  </tr>
+
+</table>
+</div>
